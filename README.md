@@ -7,6 +7,8 @@ The simulation starts by defining the positions of several satellites in Earth-C
 
 Using these noisy pseudorange values, the system formulates a set of linear equations solved via a least squares algorithm to estimate the user's three-dimensional position (X, Y, Z) and clock bias. This method is a simplified approach to positioning in GNSS, showcasing how satellite signals can be used to determine a location accurately despite measurement errors.
 
+<img width="1274" height="743" alt="image" src="https://github.com/user-attachments/assets/72d31013-865a-4991-8995-ff3d1a97b330" />
+
 # Key Features
 Satellite Positioning: The simulation includes realistic satellite coordinates in ECEF format.
 
@@ -28,4 +30,3 @@ Run the MATLAB script to perform the simulation.
 
 Analyze the output position estimates and visualization to assess system performance.
 
-<img width="1274" height="743" alt="image" src="https://github.com/user-attachments/assets/72d31013-865a-4991-8995-ff3d1a97b330" />
